@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER */
+
+
+header {
+    background-color: rgb(44, 44, 44);
+    color: rgb(228, 228, 228);
+    align-items: center;
+    display: flex;
+    font-size: 13px;
+}
+
+.logo {
+    margin: 10px;
+    transition: margin 0.6s;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo:hover{
+    margin: 20px;
+}
+
+
+header nav{
+    position: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+header nav .logo{
+    padding-top: 20px;   
+}
+
+ header nav ul { 
+    list-style: none;
+    color: white;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    line-height: 10px;
+    padding: 12px 30px;
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+    display: flex;
+    transition: opacity 400ms;
+}
+
+header nav ul li a:hover{
+    opacity: 0.15;
+}
+
+
+/* SECCION-PRINCIPAL */
+
+
+#section-principal{
+     color: rgb(228, 228, 228);
+}
+
+.container {
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: table-cell;
+}
+
+video{
+    max-width: 100%;
+}
+
+.title-section{
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    left: 43%;
+    
+}
+.title-section h2 {
+    font-weight: bold;
+}
+
+
+/* SECTION LET-ME */
+
+
+#section-letMe {
+    margin-top:20px ;
+    margin: 10px;
+}
+
+
+.titulo-let {
+    color: rgb(44, 44, 44);;
+    margin: 100px;
+    text-align: center;
+}
+
+
+.letme{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+.letme p {
+    margin: 10px;
+    display: flex;
+    text-align: left;
+    width: 40%;
+    float: left;
+}
+
+
+/* imagen centrada */
+
+div .img-me {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+#hobbies {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#hobbies ul li {
+    display: inline-block; 
+     
+}
+
+#hobbies ul li a{
+    transition: color 400ms, margin 1s
+}
+
+#hobbies ul li a:hover{
+    color: rgb(199, 144, 42) ;
+    margin: 17px;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+}
+
+#hobbies ul li a {
+    line-height: 10px;
+    padding: 12px 30px;
+    color:rgb(44, 44, 44); ;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+/* Section-Hero-AboutMe */
+  
+#hero{
+    margin: 10px;
+}
+
+#hero h2{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 1px 12px ;
+    margin-top: 20px;
+}
+
+
+#hero .container-hero {
+    display: flex;
+    padding: 80px 12px;
+}
+
+
+
+#hero .titulo-texto{
+    width: 50%;
+    text-align: initial;
+    padding:100px 12px; ;
+    
+}
+
+
+#hero .container-hero .texto {
+    color:black;
+    
+}
+
+#hero .img-container {
+    background-image: url(img/setup-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+    height: 400px;
+    width: 500px;
+}
+
+
+/* Section-Lenguages */
+
+
+#section-lenguages{
+    color:rgb(44, 44, 44); ;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;  
+}
+
+#section-lenguages h2{
+    margin: 40px;
+    margin-top: 2px;
+}
+
+
+#section-lenguages img{
+    background-size: cover;
+    background-position: center ;
+    padding: 40px;
+    height: 100px;
+    transition: margin 0.7s;
+    margin-top:20px ;
+}
+
+#section-lenguages img:hover{
+    margin: 20px;
+}
+
+
+#descripcion {
+    margin: 10px;
+}
+
+#descripcion h3{
+    padding: 10px;
+    text-decoration:overline;
+}
+
+
+/* Section-My projects */
+
+
+#mis-proyectos {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    width: auto;
+}
+
+.container-mp {
+    text-align: center;
+    margin: 30px;
+}
+
+div .section-p {
+    text-align: center;
+    
+}
+
+
+.img-phone-jpg {
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center ;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.img-phone2-jpg {
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center ;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.img-phone3-jpg {
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center ;
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* CONTACT */
+
+.title-contact{
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    width: auto;
+}
+
+.title-contact span{
+    transition: 1s linear;
+}
+
+form{
+    margin: 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form .contacto{
+   margin: 40px;
+   box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+}
+
+.contacto label {
+    padding: 5px;
+    top: 10px;
+
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color:rgb(44, 44, 44);
+    color: rgb(228,228,228);
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav {
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer nav ul img{
+    color: rgb(228,228, 228);
+    background-size: center;
+    background-position: center;
+    margin: 10px;
+    height: 20px; 
+}
+
+
+
+/* MEDIA QUERIE */
+
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        padding: 8px;
+    }
+
+    .container {
+        height: 70vh;
+        width: 100vw;
+    }
+    .title-section {
+        top: 30%;
+        left: 37%;
+        font-size: 12px;
+    }
+
+    .titulo-let{
+        margin:60px;
+        text-align: center;
+    }
+
+    #hero{
+        margin: 0;
+    }
+
+    #hero .container-hero { 
+        display: block;
+    }
+
+    #hero .titulo-texto{
+        width: 100vh;
+        text-align: justify;
+    }
+
+    #hero .container-hero .texto {
+        color: black;
+    }
+
+    #hero .img-container {
+        background-image: url(img/setup-1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 100vh;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        font-size: 10px;
+    }
+    header nav ul li a {
+        padding: 7px;
+    }
+    .container {
+        height: 40vh;
+        width: 100vw;
+    }
+    .title-section {
+        top: 24%;
+        left: 28%;
+        font-size: 0.rem;
+    }
+    .letme p {
+        margin: 10px;
+        text-align: justify;
+        width: 100%;
+        font-size: 12px;
+    }
+    div .img-me {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    #hobbies ul li a {
+        padding: 20px;
+    }
+}
+
+    
