@@ -14,58 +14,41 @@ body {
 /* HEADER */
 
 
-header {
+.container-fluid{
     background-color: rgb(44, 44, 44);
     color: rgb(228, 228, 228);
     align-items: center;
     display: flex;
     font-size: 13px;
+    padding: 8px;
 }
 
-.logo {
+.navbar-brand {
     margin: 10px;
     transition: margin 0.6s;
     font-weight: bold;
     font-size: 20px;
+    text-decoration: none;
+    color: rgb(228, 228, 228);
 }
 
-.logo:hover{
+.navbar-brand:hover{
     margin: 20px;
 }
 
 
-header nav{
-    position: flex;
-    width: 100%;
-    box-sizing: border-box;
-    align-items: center;
-}
-
-header nav .logo{
-    padding-top: 20px;   
-}
-
- header nav ul { 
-    list-style: none;
-    color: white;
-    float: right;
-    margin: 0;
-    padding: 0;
+ .navbar-nav{ 
     display: flex;    
 }
 
-header nav ul li {
-    display: inline-block;
-}
 
-header nav ul li a{
-    line-height: 10px;
+.navbar-nav a{
     padding: 12px 30px;
     color: rgb(228, 228, 228);
     text-decoration: none;
-    display: flex;
     transition: opacity 400ms;
 }
+
 
 header nav ul li a:hover{
     opacity: 0.15;
@@ -182,8 +165,9 @@ div .img-me {
 
 
 
-/* Section-Hero-AboutMe */
+/* SECTION-HERO-ABOUTME */
   
+
 #hero{
     margin: 10px;
 }
@@ -193,21 +177,21 @@ div .img-me {
     text-align: center;
     padding: 1px 12px ;
     margin-top: 20px;
+    margin: 40px;
 }
 
 
 #hero .container-hero {
     display: flex;
-    padding: 80px 12px;
+    
 }
-
 
 
 #hero .titulo-texto{
     width: 50%;
     text-align: initial;
     padding:100px 12px; ;
-    
+
 }
 
 
@@ -221,12 +205,22 @@ div .img-me {
     background-size: cover;
     background-position: center center;
     padding: 30px;
-    height: 400px;
-    width: 500px;
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
 }
 
+.more-information {
+    margin: 10px;
+    margin: 20px;
+}
 
-/* Section-Lenguages */
+.more-information h2 {
+    color: rgb(44, 44, 44);
+    margin-bottom: 15px;
+}
+
+/* SECTION-LENGUAGES */
 
 
 #section-lenguages{
@@ -263,7 +257,9 @@ div .img-me {
 #descripcion h3{
     padding: 10px;
     text-decoration:overline;
+    margin-top: 10px;
 }
+
 
 
 /* Section-My projects */
@@ -325,35 +321,12 @@ div .section-p {
 
 /* CONTACT */
 
+
 .title-contact{
     text-align: center;
     padding: 20px;
     margin: 40px;
     width: auto;
-}
-
-.title-contact span{
-    transition: 1s linear;
-}
-
-form{
-    margin: 10px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-
-form .contacto{
-   margin: 40px;
-   box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.8);
-   border-radius: 10px;
-}
-
-.contacto label {
-    padding: 5px;
-    top: 10px;
-
 }
 
 
@@ -390,6 +363,10 @@ footer nav ul img{
     margin: 10px;
     height: 20px; 
 }
+
+
+
+
 
 
 
@@ -472,7 +449,6 @@ footer nav ul img{
     }
     #hobbies ul li a {
         padding: 20px;
-        margin: 20px;
     }
 }
 
