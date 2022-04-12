@@ -19,6 +19,7 @@ body {
     color: rgb(228, 228, 228);
     align-items: center;
     display: flex;
+    justify-content: space-between;
     font-size: 13px;
     padding: 8px;
 }
@@ -37,16 +38,12 @@ body {
 }
 
 
- .navbar-nav{ 
-    display: flex;    
-}
-
-
 .navbar-nav a{
     padding: 12px 30px;
     color: rgb(228, 228, 228);
     text-decoration: none;
     transition: opacity 400ms;
+    justify-content: flex-end;
 }
 
 
