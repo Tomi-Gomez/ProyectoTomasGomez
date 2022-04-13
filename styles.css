@@ -259,7 +259,7 @@ div .img-me {
 
 
 
-/* Section-My projects */
+/* SECTION - MY PROJECT */
 
 
 #mis-proyectos {
@@ -277,43 +277,24 @@ div .img-me {
     width: auto;
 }
 
-.container-mp {
-    text-align: center;
-    margin: 30px;
-}
-
-div .section-p {
-    text-align: center;
-    
+.Acitvity7{
+    margin: 20px;
+    text-align: left;
 }
 
 
-.img-phone-jpg {
-    border-radius: 40px;
-    background-size: cover;
-    background-position: center ;
-    padding: 30px;
-    height: 200px;
+.parrafo1{
+    display: flex;
+    width: 40%;
+    margin: 10px;
+}
+
+
+{
     width: 200px;
+    height: 400px;
 }
 
-.img-phone2-jpg {
-    border-radius: 40px;
-    background-size: cover;
-    background-position: center ;
-    padding: 30px;
-    height: 200px;
-    width: 200px;
-}
-
-.img-phone3-jpg {
-    border-radius: 40px;
-    background-size: cover;
-    background-position: center ;
-    padding: 30px;
-    height: 200px;
-    width: 200px;
-}
 
 
 /* CONTACT */
@@ -325,6 +306,8 @@ div .section-p {
     margin: 40px;
     width: auto;
 }
+
+
 
 
 /* FOOTER */
