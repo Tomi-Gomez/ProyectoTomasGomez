@@ -277,22 +277,23 @@ div .img-me {
     width: auto;
 }
 
-.Acitvity7{
+.title-proyectos{
     margin: 20px;
     text-align: left;
 }
 
 
-.parrafo1{
-    display: flex;
+.parrafo-myprojects{
     width: 40%;
-    margin: 10px;
 }
 
 
-{
-    width: 200px;
+div .img-myProjects{
+    float: right;
     height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    top: 40%;
 }
 
 
@@ -351,6 +352,8 @@ footer nav ul img{
 
 
 /* MEDIA QUERIE */
+
+
 
 @media screen and (max-width: 768px) {
     header nav ul li a {
