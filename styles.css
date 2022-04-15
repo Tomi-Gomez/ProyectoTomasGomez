@@ -82,13 +82,18 @@ video{
     position: absolute;
     max-width: 100%;
     top: 50%;
-    left: 43%;
+    left: 41%;
+    font-size: 20px;
     
 }
 .title-section h2 {
     font-weight: bold;
+    font-size: 25px;
 }
 
+.title-section h4{
+    font-size: 20px;
+}
 
 /* SECTION LET-ME */
 
@@ -120,6 +125,7 @@ video{
     text-align: left;
     width: 40%;
     float: left;
+    color:rgb(97, 96, 96)
 }
 
 
@@ -199,13 +205,13 @@ div .img-me {
 #hero .titulo-texto{
     width: 50%;
     text-align: initial;
-    padding: 40px 12px; ;
+    padding: 40px 12px; 
 
 }
 
 
 #hero .container-hero .texto {
-    color:black;
+    color:rgb(97, 96, 96);
     
 }
 
@@ -214,21 +220,22 @@ div .img-me {
     background-size: cover;
     background-position: center center;
     padding: 30px;
-    height: 350px;
-    width: 450px;
+    height: 400px;
+    width: 550px;
     border-radius: 10px;
 }
 
 .more-information {
     margin-top: 20px;
     margin: 20px;
+    color:rgb(97, 96, 96);
 }
 
 .more-information h2 {
     color: rgb(44, 44, 44);
     margin-bottom: 15px;
     margin-top: 60px; 
-    
+    font-size: 24px;
 }
 
 
