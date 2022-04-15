@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -13,44 +13,51 @@ body {
 
 /* HEADER */
 
+header{
+    background-color:rgb(44, 44, 44);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: block;
+    
+}
 
 .container-fluid{
-    background-color: rgb(44, 44, 44);
+    padding-right:0px;
+    padding-left: 0px;
     color: rgb(228, 228, 228);
     align-items: center;
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    padding: 8px;
 }
 
 .navbar-brand {
     margin: 10px;
-    transition: margin 0.6s;
+    transition: opacity 400ms;
     font-weight: bold;
     font-size: 20px;
-    text-decoration: none;
     color: rgb(228, 228, 228);
 }
 
 .navbar-brand:hover{
-    margin: 20px;
+    opacity: 0.15 ;
+    color: grey;
 }
 
 
-.navbar-nav a{
-    padding: 12px 30px;
-    color: rgb(228, 228, 228);
-    text-decoration: none;
+.nav-transition a{
     transition: opacity 400ms;
-    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 13px;
 }
 
-
-header nav ul li a:hover{
+.nav-transition a:hover{
     opacity: 0.15;
 }
-
 
 /* SECCION-PRINCIPAL */
 
@@ -96,6 +103,7 @@ video{
     color: rgb(44, 44, 44);;
     margin: 100px;
     text-align: center;
+    font-size: 25px;
 }
 
 
@@ -160,6 +168,9 @@ div .img-me {
     text-align: center;
 }
 
+#hobbies h3 {
+    font-size: 20px;
+}
 
 
 /* SECTION-HERO-ABOUTME */
@@ -175,6 +186,7 @@ div .img-me {
     padding: 1px 12px ;
     margin-top: 20px;
     margin: 40px;
+    font-size: 27px
 }
 
 
@@ -235,6 +247,7 @@ div .img-me {
 #section-lenguages h2{
     margin: 40px;
     margin-top: 2px;
+    font-size: 27px
 }
 
 
@@ -242,7 +255,7 @@ div .img-me {
     background-size: cover;
     background-position: center ;
     padding: 40px;
-    height: 100px;
+    height: 180px;
     transition: margin 0.7s;
     margin-top:20px ;
 }
@@ -254,12 +267,15 @@ div .img-me {
 
 #descripcion {
     margin: 10px;
+    color:rgb(97, 96, 96);
 }
 
 #descripcion h3{
     padding: 10px;
     text-decoration:overline;
     margin-top: 10px;
+    font-size: 20px;
+    color: rgb(44,44,44);
 }
 
 
@@ -276,12 +292,13 @@ div .img-me {
 }
 
 
-.titulo {
+.titulo h2 {
     text-align: center;
     padding: 20px;
     margin: 40px;
     width: auto;
     margin-bottom: 50px;
+    font-size: 27px
 }
 
 .title-proyectos{
@@ -289,13 +306,16 @@ div .img-me {
     text-align: left;
     font-size: 22px;
     text-decoration: overline;
+    font-weight: bold;
 }
+
 
 
 .Parrafo1{
   display: flex;
   padding: 10px;
   text-align: left;
+  color:rgb(97, 96, 96);
 }
 
 
@@ -317,6 +337,7 @@ div .img-myProjects{
     padding: 20px;
     margin: 40px;
     width: auto;
+    font-size: 27px
 }
 
 
@@ -363,6 +384,10 @@ footer nav ul img{
 
 
 @media screen and (max-width: 768px) {
+    header{
+        display: block;
+    }
+    
     header nav ul li a {
         padding: 8px;
     }
