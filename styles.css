@@ -132,7 +132,7 @@ video{
 /* imagen centrada */
 
 div .img-me {
-    width: 250px;
+    width: 275px;
     height: auto;
     margin: auto;
     display: block;
@@ -335,6 +335,31 @@ div .img-myProjects{
 }
 
 
+.title-proyectos2{
+    margin: 20px;
+    text-align: right;
+    font-size: 22px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+
+.Parrafo2{
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  color:rgb(97, 96, 96);
+}
+
+
+
+div .img-myProjects2{
+    float: left;
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
 
 /* CONTACT */
 
@@ -347,6 +372,31 @@ div .img-myProjects{
     font-size: 27px
 }
 
+.form {
+    background-color: rgb(190, 190, 190);
+    width: 600px;
+    position:relative;
+    top: 50%;
+    left: 25%;
+    align-items: center;
+    /* border: 2px black solid; */
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 7px 10px 20px black;
+}
+
+.form-label{
+    font-size: 1,2rem;
+    padding: 8px;
+    text-decoration:overline;
+
+}
+
+#buttom{
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
 
 
 
@@ -384,6 +434,9 @@ footer nav ul img{
     height: 20px; 
 }
 
+p {
+    margin-bottom: 0;
+}
 
 
 /* MEDIA QUERIE */
