@@ -122,7 +122,7 @@ video{
 .letme p {
     margin: 10px;
     display: flex;
-    text-align: left;
+    text-align: justify;
     width: 40%;
     float: left;
     color:rgb(97, 96, 96)
@@ -204,7 +204,7 @@ div .img-me {
 
 #hero .titulo-texto{
     width: 50%;
-    text-align: initial;
+    text-align: justify;
     padding: 40px 12px; 
 
 }
@@ -238,7 +238,9 @@ div .img-me {
     font-size: 24px;
 }
 
-
+.more-information p {
+    text-align: justify;
+}
 
 /* SECTION-LENGUAGES */
 
@@ -275,14 +277,16 @@ div .img-me {
 #descripcion {
     margin: 10px;
     color:rgb(97, 96, 96);
+    text-align: justify;
 }
 
 #descripcion h3{
     padding: 10px;
     text-decoration:overline;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 21px;
     color: rgb(44,44,44);
+    font-weight: bold;
 }
 
 
@@ -321,7 +325,7 @@ div .img-me {
 .Parrafo1{
   display: flex;
   padding: 10px;
-  text-align: left;
+  text-align: justify;
   color:rgb(97, 96, 96);
 }
 
@@ -332,12 +336,13 @@ div .img-myProjects{
     height: 400px;
     width: 600px;
     border-radius: 15px;
+    margin: 10px;
 }
 
 
 .title-proyectos2{
     margin: 20px;
-    text-align: right;
+    text-align: justify;
     font-size: 22px;
     text-decoration: overline;
     font-weight: bold;
@@ -377,7 +382,7 @@ div .img-myProjects2{
     width: 600px;
     position:relative;
     top: 50%;
-    left: 25%;
+    left: 26%;
     align-items: center;
     /* border: 2px black solid; */
     border-radius: 10px;
@@ -395,7 +400,11 @@ div .img-myProjects2{
 #buttom{
     padding: 5px 10px;
     border-radius: 5px;
-    
+    margin-bottom: 10px;
+}
+
+.boton-enviar {
+    margin-left: 255px;
 }
 
 
@@ -437,6 +446,7 @@ footer nav ul img{
 p {
     margin-bottom: 0;
 }
+
 
 
 /* MEDIA QUERIE */
@@ -492,6 +502,10 @@ p {
         width: 100vh;
         max-width: 100%;
     }
+
+    .form{
+        left: 80px;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -524,6 +538,15 @@ p {
     }
     #hobbies ul li a {
         padding: 20px;
+    }
+
+    .form{
+        left: 25px;
+        width: 350px;
+    }
+
+    .boton-enviar {
+        margin-left: 130px;
     }
 }
 
