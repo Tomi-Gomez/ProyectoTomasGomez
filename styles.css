@@ -41,6 +41,8 @@ header{
     font-weight: bold;
     font-size: 20px;
     color: rgb(228, 228, 228);
+    height: 44px;
+    width: 50px;
 }
 
 .navbar-brand:hover{
@@ -386,9 +388,9 @@ div .img-myProjects2{
     top: 50%;
     left: 26%;
     align-items: center;
-    /* border: 2px black solid; */
     border-radius: 10px;
     margin: 20px;
+    margin-bottom: 100px;
     box-shadow: 7px 10px 20px black;
 }
 
@@ -467,6 +469,15 @@ ol, ul {
 
 
 @media screen and (max-width: 768px) {
+
+    .navbar-nav .nav-link{
+        padding-left: 10px;
+    }
+
+    .navbar-toggler{
+        margin-left: 8px;
+    }
+
     header{
         display: block;
     }
@@ -526,6 +537,7 @@ ol, ul {
     
     div .img-myProjects{
         width: 100%;
+        float: none;
     }
 
     .Parrafo2{
@@ -534,12 +546,22 @@ ol, ul {
     
     div .img-myProjects2{
         width: 100%;
+        
     }
     
     
 }
 
 @media screen and (max-width: 426px) {
+    
+    .navbar-nav .nav-link{
+        padding-left: 10px;
+    }
+
+    .navbar-toggler{
+        margin-left: 8px;
+    }
+
     header {
         font-size: 10px;
     }
@@ -586,6 +608,7 @@ ol, ul {
     
     div .img-myProjects{
         width: 100%;
+        float: none;
     }
 
     .Parrafo2{
@@ -594,7 +617,6 @@ ol, ul {
     
     div .img-myProjects2{
         width: 100%;
+        
     }
 }
-
-    
