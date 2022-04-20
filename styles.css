@@ -426,6 +426,7 @@ footer{
 }
 
 
+
 footer p {
     text-align: center;
     font-size: 15px;
@@ -517,6 +518,8 @@ ol, ul {
     .form{
         left: 80px;
     }
+
+   
 }
 
 @media screen and (max-width: 426px) {
@@ -560,6 +563,7 @@ ol, ul {
         margin-left: 130px;
     }
 
+    
 }
 
     
