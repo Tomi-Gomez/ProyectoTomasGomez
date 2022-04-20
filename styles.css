@@ -461,6 +461,7 @@ ol, ul {
     padding-left: 0;
 }
 
+
 /* MEDIA QUERIE */
 
 
@@ -519,7 +520,23 @@ ol, ul {
         left: 80px;
     }
 
-   
+    .Parrafo1{
+        display: block;
+    }
+    
+    div .img-myProjects{
+        width: 100%;
+    }
+
+    .Parrafo2{
+        display: block;
+    }
+    
+    div .img-myProjects2{
+        width: 100%;
+    }
+    
+    
 }
 
 @media screen and (max-width: 426px) {
@@ -563,7 +580,21 @@ ol, ul {
         margin-left: 130px;
     }
 
+    .Parrafo1{
+        display: block;
+    }
     
+    div .img-myProjects{
+        width: 100%;
+    }
+
+    .Parrafo2{
+        display: block;
+    }
+    
+    div .img-myProjects2{
+        width: 100%;
+    }
 }
 
     
