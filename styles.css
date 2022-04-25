@@ -36,13 +36,13 @@ header{
 }
 
 .navbar-brand {
-    margin: 10px;
+    margin-left: 14px;
     transition: opacity 400ms;
     font-weight: bold;
     font-size: 20px;
     color: rgb(228, 228, 228);
-    height: 44px;
-    width: 50px;
+    height: 60px;
+   
 }
 
 .navbar-brand:hover{
