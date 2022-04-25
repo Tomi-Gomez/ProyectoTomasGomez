@@ -1,0 +1,119 @@
+/* SECCION-PRINCIPAL */
+
+
+#section-principal{
+    color: rgb(228, 228, 228);
+}
+
+.container {
+   font-size: 16px;
+   height: 100vh;
+   width: 100vw;
+   text-align: center;
+   display: table-cell;
+}
+
+video{
+   max-width: 100%;
+}
+
+.title-section{
+   position: absolute;
+   max-width: 100%;
+   top: 50%;
+   left: 41%;
+   font-size: 20px;
+   
+}
+.title-section h2 {
+   font-weight: bold;
+   font-size: 25px;
+}
+
+.title-section h4{
+   font-size: 20px;
+}
+
+/* SECTION LET-ME */
+
+
+#section-letMe {
+   margin-top:20px ;
+   margin: 10px;
+}
+
+
+.titulo-let {
+   color: rgb(44, 44, 44);;
+   margin: 100px;
+   text-align: center;
+   font-size: 25px;
+}
+
+
+.letme{
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+
+
+.letme p {
+   margin: 10px;
+   display: flex;
+   text-align: justify;
+   width: 40%;
+   float: left;
+   color:rgb(97, 96, 96)
+}
+
+
+/* imagen centrada */
+
+div .img-me {
+   width: 275px;
+   height: auto;
+   margin: auto;
+   display: block;
+   border-radius: 15px;
+}
+
+#hobbies {
+   margin: 70px;
+   display: flex;
+   justify-content: center;
+   
+}
+
+#hobbies ul li {
+   display: inline-block; 
+    
+}
+
+#hobbies ul li a{
+   transition: color 400ms, margin 1s
+}
+
+#hobbies ul li a:hover{
+   color: rgb(199, 144, 42) ;
+   margin: 17px;
+}
+
+.lista {
+   list-style: none;
+   display: flex;
+   font-size: 15px;
+}
+
+#hobbies ul li a {
+   line-height: 10px;
+   padding: 12px 30px;
+   color:rgb(44, 44, 44); ;
+   text-decoration: none;
+   text-align: center;
+}
+
+#hobbies h3 {
+   font-size: 20px;
+}
+

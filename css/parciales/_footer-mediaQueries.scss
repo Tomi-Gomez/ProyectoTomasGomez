@@ -1,0 +1,199 @@
+/* FOOTER */
+
+footer{
+    background-color:rgb(44, 44, 44);
+    color: rgb(228,228,228);
+}
+
+
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav {
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer nav ul img{
+    color: rgb(228,228, 228);
+    background-size: center;
+    background-position: center;
+    margin: 10px;
+    height: 20px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+/* MEDIA QUERIE */
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar-nav .nav-link{
+        padding-left: 10px;
+    }
+
+    .navbar-toggler{
+        margin-left: 8px;
+    }
+
+    header{
+        display: block;
+    }
+    
+    header nav ul li a {
+        padding: 8px;
+    }
+
+    .container {
+        height: 70vh;
+        width: 100vw;
+    }
+    .title-section {
+        top: 30%;
+        left: 37%;
+        font-size: 12px;
+    }
+
+    .titulo-let{
+        margin:60px;
+        text-align: center;
+    }
+
+    #hero{
+        margin: 0;
+    }
+
+    #hero .container-hero { 
+        display: block;
+    }
+
+    #hero .titulo-texto{
+        width: 100vh;
+        text-align: justify;
+    }
+
+    #hero .container-hero .texto {
+        color: black;
+    }
+
+    #hero .img-container {
+        background-image: url(img/setup-1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 400px;
+        width: 100vh;
+        max-width: 100%;
+    }
+
+    .form{
+        left: 80px;
+    }
+
+    .Parrafo1{
+        display: block;
+    }
+    
+    div .img-myProjects{
+        width: 100%;
+        float: none;
+    }
+
+    .Parrafo2{
+        display: block;
+    }
+    
+    div .img-myProjects2{
+        width: 100%;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 426px) {
+    
+    .navbar-nav .nav-link{
+        padding-left: 10px;
+    }
+
+    .navbar-toggler{
+        margin-left: 8px;
+    }
+
+    header {
+        font-size: 10px;
+    }
+    header nav ul li a {
+        padding: 7px;
+    }
+    .container {
+        height: 40vh;
+        width: 100vw;
+    }
+    .title-section {
+        top: 24%;
+        left: 28%;
+        font-size: 0.rem;
+    }
+    .letme p {
+        margin: 10px;
+        text-align: justify;
+        width: 100%;
+        font-size: 12px;
+    }
+    div .img-me {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    #hobbies ul li a {
+        padding: 20px;
+    }
+
+    .form{
+        left: 25px;
+        width: 350px;
+    }
+
+    .boton-enviar {
+        margin-left: 130px;
+    }
+
+    .Parrafo1{
+        display: block;
+    }
+    
+    div .img-myProjects{
+        width: 100%;
+        float: none;
+    }
+
+    .Parrafo2{
+        display: block;
+    }
+    
+    div .img-myProjects2{
+        width: 100%;
+        
+    }
+}

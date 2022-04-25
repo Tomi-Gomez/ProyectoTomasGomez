@@ -1,0 +1,49 @@
+/* HEADER */
+
+header{
+    background-color:rgb(44, 44, 44);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: block;
+    
+}
+
+.container-fluid{
+    padding-right:0px;
+    padding-left: 0px;
+    color: rgb(228, 228, 228);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.navbar-brand {
+    margin-left: 14px;
+    transition: opacity 400ms;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(228, 228, 228);
+    height: 60px;
+   
+}
+
+.navbar-brand:hover{
+    opacity: 0.15 ;
+    color: grey;
+}
+
+
+.nav-transition a{
+    transition: opacity 400ms;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.nav-transition a:hover{
+    opacity: 0.15;
+}

@@ -1,0 +1,47 @@
+/* CONTACT */
+
+
+.title-contact{
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    width: auto;
+    font-size: 27px
+}
+
+.form {
+    background-color: rgb(190, 190, 190);
+    width: 600px;
+    position:relative;
+    top: 50%;
+    left: 26%;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 100px;
+    box-shadow: 7px 10px 20px black;
+}
+
+.form-label{
+    font-size: 1,2rem;
+    padding: 8px;
+    text-decoration:overline;
+
+}
+
+#buttom{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.30s;
+}
+
+#buttom:hover{
+    background-color: rgb(152, 152, 152);
+}
+
+
+.boton-enviar {
+    margin-left: 255px;
+   
+}

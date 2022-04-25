@@ -1,0 +1,62 @@
+/* SECTION-HERO-ABOUTME */
+  
+
+#hero{
+    margin: 10px;
+}
+
+#hero h2{
+    color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 1px 12px ;
+    margin-top: 20px;
+    margin: 40px;
+    font-size: 27px
+}
+
+
+#hero .container-hero {
+    display: flex;
+    
+}
+
+
+#hero .titulo-texto{
+    width: 50%;
+    text-align: justify;
+    margin-left: 9px;
+
+}
+
+
+#hero .container-hero .texto {
+    color:rgb(97, 96, 96);
+    
+}
+
+#hero .img-container {
+    background-image: url(img/setup-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 30px;
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.more-information {
+    margin-top: 20px;
+    margin: 20px;
+    color:rgb(97, 96, 96);
+}
+
+.more-information h2 {
+    color: rgb(44, 44, 44);
+    margin-bottom: 15px;
+    margin-top: 60px; 
+    font-size: 24px;
+}
+
+.more-information p {
+    text-align: justify;
+}

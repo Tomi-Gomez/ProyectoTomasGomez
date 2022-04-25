@@ -1,0 +1,48 @@
+/* SECTION-LENGUAGES */
+
+
+
+#section-lenguages{
+    color:rgb(44, 44, 44); ;
+    text-align: center;
+    margin: 10px;
+    padding: 50px;  
+}
+
+#section-lenguages h2{
+    margin: 40px;
+    margin-top: 2px;
+    font-size: 27px
+}
+
+
+#section-lenguages img{
+    background-size: cover;
+    background-position: center ;
+    padding: 40px;
+    height: 180px;
+    transition: margin 0.7s;
+    margin-top:20px ;
+}
+
+#section-lenguages img:hover{
+    margin: 20px;
+}
+
+
+#descripcion {
+    margin: 10px;
+    color:rgb(97, 96, 96);
+    text-align: justify;
+}
+
+#descripcion h3{
+    padding: 10px;
+    text-decoration:overline;
+    margin-top: 10px;
+    font-size: 21px;
+    color: rgb(44,44,44);
+    font-weight: bold;
+}
+
+

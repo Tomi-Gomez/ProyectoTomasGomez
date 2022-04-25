@@ -1,0 +1,76 @@
+/* SECTION - MY PROJECT */
+
+
+
+#mis-proyectos {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.titulo h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    width: auto;
+    margin-bottom: 50px;
+    font-size: 27px
+}
+
+.title-proyectos{
+    margin: 20px;
+    text-align: left;
+    font-size: 22px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+
+
+.Parrafo1{
+  display: flex;
+  padding: 10px;
+  text-align: justify;
+  color:rgb(97, 96, 96);
+}
+
+
+
+div .img-myProjects{
+    float: right;
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+
+.title-proyectos2{
+    margin: 20px;
+    text-align: justify;
+    font-size: 22px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+
+.Parrafo2{
+  display: flex;
+  padding: 10px;
+  text-align: left;
+  color:rgb(97, 96, 96);
+}
+
+
+
+div .img-myProjects2{
+    float: left;
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    margin-top: 0;
+}
