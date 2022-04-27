@@ -37,11 +37,14 @@
 }
 
 #buttom:hover{
+    @extend #buttom;
     background-color: rgb(152, 152, 152);
 }
 
 
 .boton-enviar {
+    @extend #buttom;
     margin-left: 255px;
    
 }
+

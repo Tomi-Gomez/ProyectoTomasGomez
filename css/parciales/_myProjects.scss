@@ -19,13 +19,29 @@
     font-size: 27px
 }
 
+$estilos:(
+    margen:20px,
+    tAlineacion:left,
+    tTamaño:22px,
+    tDecoracion:overline,
+    tPeso:bold,
+);
+
 .title-proyectos{
-    margin: 20px;
-    text-align: left;
-    font-size: 22px;
-    text-decoration: overline;
-    font-weight: bold;
+    margin:map-get($estilos,margen);
+    text-align:map-get($estilos,tAlineacion);
+    font-size:map-get($estilos,tTamaño);
+    text-decoration:map-get($estilos,tDecoracion);
+    font-weight:map-get($estilos,tPeso);
 }
+
+// .title-proyectos{
+//     margin: 20px;
+//     text-align: left;
+//     font-size: 22px;
+//     text-decoration: overline;
+//     font-weight: bold;
+// }
 
 
 

@@ -5,13 +5,22 @@
     margin: 10px;
 }
 
+@mixin medidias($margin-top, $padding,) {
+    padding:$padding;
+    margin-top:$margin-top;
+}
+
+#hero h2 {
+    @include medidias(1px 12px,40px);
+}
+
+
 #hero h2{
     color: rgb(44, 44, 44);
     text-align: center;
     padding: 1px 12px ;
-    margin-top: 20px;
-    margin: 40px;
-    font-size: 27px
+    font-size: 27px;
+    margin:20px;
 }
 
 

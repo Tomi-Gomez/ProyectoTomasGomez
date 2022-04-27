@@ -7,7 +7,7 @@
 
 body {
   background-color: #f0f0f0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* HEADER */
@@ -194,12 +194,16 @@ div .img-me {
 }
 
 #hero h2 {
+  padding: 40px;
+  margin-top: 1px 12px;
+}
+
+#hero h2 {
   color: #2c2c2c;
   text-align: center;
   padding: 1px 12px;
-  margin-top: 20px;
-  margin: 40px;
   font-size: 27px;
+  margin: 20px;
 }
 
 #hero .container-hero {
@@ -388,7 +392,7 @@ div .img-myProjects2 {
   text-decoration: overline;
 }
 
-#buttom {
+#buttom, #buttom:hover, .boton-enviar {
   padding: 5px 10px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -396,7 +400,7 @@ div .img-myProjects2 {
   transition: background-color 0.30s;
 }
 
-#buttom:hover {
+#buttom:hover, .boton-enviar:hover {
   background-color: #989898;
 }
 
@@ -452,5 +456,130 @@ p {
 
 ol, ul {
   padding-left: 0;
+}
+
+/* MEDIA QUERIE */
+@media screen and (max-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-left: 10px;
+  }
+  .navbar-toggler {
+    margin-left: 8px;
+  }
+  header {
+    display: block;
+  }
+  header nav ul li a {
+    padding: 8px;
+  }
+  .container {
+    height: 70vh;
+    width: 100vw;
+  }
+  .title-section {
+    top: 30%;
+    left: 37%;
+    font-size: 12px;
+  }
+  .titulo-let {
+    margin: 60px;
+    text-align: center;
+  }
+  #hero {
+    margin: 0;
+  }
+  #hero .container-hero {
+    display: block;
+  }
+  #hero .titulo-texto {
+    width: 100vh;
+    text-align: justify;
+  }
+  #hero .container-hero .texto {
+    color: black;
+  }
+  #hero .img-container {
+    background-image: url(img/setup-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 100vh;
+    max-width: 100%;
+  }
+  .form {
+    left: 80px;
+  }
+  .Parrafo1 {
+    display: block;
+  }
+  div .img-myProjects {
+    width: 100%;
+    float: none;
+  }
+  .Parrafo2 {
+    display: block;
+  }
+  div .img-myProjects2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .navbar-nav .nav-link {
+    padding-left: 10px;
+  }
+  .navbar-toggler {
+    margin-left: 8px;
+  }
+  header {
+    font-size: 10px;
+  }
+  header nav ul li a {
+    padding: 7px;
+  }
+  .container {
+    height: 40vh;
+    width: 100vw;
+  }
+  .title-section {
+    top: 24%;
+    left: 28%;
+    font-size: 0.2rem;
+  }
+  .letme p {
+    margin: 10px;
+    text-align: justify;
+    width: 100%;
+    font-size: 12px;
+  }
+  div .img-me {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+  }
+  #hobbies ul li a {
+    padding: 20px;
+  }
+  .form {
+    left: 25px;
+    width: 350px;
+  }
+  .boton-enviar {
+    margin-left: 130px;
+  }
+  .Parrafo1 {
+    display: block;
+  }
+  div .img-myProjects {
+    width: 100%;
+    float: none;
+  }
+  .Parrafo2 {
+    display: block;
+  }
+  div .img-myProjects2 {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
