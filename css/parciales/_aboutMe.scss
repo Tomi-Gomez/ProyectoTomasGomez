@@ -43,14 +43,11 @@
     
 }
 
-#hero .img-container {
-    background-image: url(img/setup-1.jpg);
-    background-size: cover;
-    background-position: center center;
+.carousel-item {
     padding: 30px;
     height: 400px;
-    width: 550px;
-    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 30px;
 }
 
 .more-information {
@@ -65,6 +62,8 @@
     margin-top: 60px; 
     font-size: 24px;
 }
+
+
 
 .more-information p {
     text-align: justify;

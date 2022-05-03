@@ -222,14 +222,11 @@ div .img-me {
   color: #616060;
 }
 
-#hero .img-container {
-  background-image: url(img/setup-1.jpg);
-  background-size: cover;
-  background-position: center center;
+.carousel-item {
   padding: 30px;
   height: 400px;
-  width: 550px;
-  border-radius: 10px;
+  width: 600px;
+  margin-bottom: 30px;
 }
 
 .more-information {
@@ -258,7 +255,7 @@ div .img-me {
 }
 
 #section-lenguages h2 {
-  margin: 40px;
+  margin: 20px;
   margin-top: 2px;
   font-size: 27px;
 }
@@ -278,7 +275,7 @@ div .img-me {
 }
 
 #descripcion {
-  margin: 10px;
+  margin: 20px;
   color: #616060;
   text-align: justify;
 }
