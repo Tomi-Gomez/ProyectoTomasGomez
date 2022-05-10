@@ -578,5 +578,12 @@ ol, ul {
   div .img-myProjects2 {
     width: 100%;
   }
+  #hero .container-hero .texto {
+    width: 320px;
+    text-align: justify;
+  }
+  .form {
+    width: 350px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
